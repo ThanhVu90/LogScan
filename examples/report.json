@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "lines": 5,
+  "valid": 4,
+  "invalid": 1,
+  "overlong": 0,
+  "binary": 0,
+  "filtered": 0,
+  "requests": 4,
+  "bytes": 440,
+  "unknown_size_requests": 1,
+  "server_errors": 1,
+  "distinct_paths": 3,
+  "first_unix": 1793145600,
+  "last_unix": 1793145780,
+  "statuses": {"200": 2, "404": 1, "503": 1},
+  "top_paths": [
+    {"path": "/api/tickets", "requests": 2, "server_errors": 1, "bytes": 420},
+    {"path": "/health", "requests": 1, "server_errors": 0, "bytes": 20},
+    {"path": "/missing", "requests": 1, "server_errors": 0, "bytes": 0}
+  ]
+}
